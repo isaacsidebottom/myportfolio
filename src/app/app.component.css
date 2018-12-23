@@ -1,0 +1,13 @@
+h1{
+    color: #fff;
+}
+#highlightMe{
+    color: #0CE8D6 ;
+}
+.centerBox {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
