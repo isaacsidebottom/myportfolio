@@ -1,7 +1,7 @@
 # My Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.  
+Angular CLI application hosted on Firebase. Designed using the Angular Material UI Library (using Google's Raleway font instead).
 
-YEAH it was and HOSTED on Google Firebase. You can go have a look at this page @ [isaacsidebo.me](http://isaacsidebo.me)!
+You can go have a look at this page @ [isaacsidebo.me](http://isaacsidebo.me)!
 
 THIS IS STILL IN DEVELOPMENT!
