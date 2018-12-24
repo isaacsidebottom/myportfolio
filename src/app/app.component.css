@@ -11,3 +11,22 @@ h1{
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+#viewWorkBtn{
+    color: #0CE8D6 ;
+    background-color: transparent;
+    border-color: #0CE8D6 !important;
+    border-style: solid;
+    font-size: 24px;
+    margin-top:20px;
+}
+#viewWorkBtn:hover {
+    color: white ;
+    background-color: #0CE8D6 ;
+}
+footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    color: white;
+    margin-left:10px;
+}
