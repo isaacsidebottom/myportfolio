@@ -85,21 +85,6 @@ export class AppComponent {
 }
 
 
-/**
- * @title Dialog Overview
- */
-@Component({
-  selector: 'dialog-overview-example'
-})
-export class DialogOverviewExample {
-
-  animal: string;
-  name: string;
-
-  
-
-}
-
 @Component({
   selector: 'dialog-overview-example-dialog',
   templateUrl: '../app/dialog/dialog.html',
