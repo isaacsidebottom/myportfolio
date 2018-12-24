@@ -75,8 +75,8 @@ export class AppComponent {
               distance: 200
             },
             repulse: {
-              distance: 200,
-              duration: 0.6
+              distance: 330,
+              duration: 0.5
             }
           }
         }
