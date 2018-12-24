@@ -9,19 +9,24 @@ import { ParticlesModule } from 'angular-particle';
 import { HomeComponent } from './home/home.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
-
+import {MatDialogModule} from '@angular/material/dialog';
+import { DialogOverviewExampleDialog} from './app.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    DialogOverviewExampleDialog
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ParticlesModule,
     BrowserAnimationsModule,
-    MatButtonModule  ],
+    MatButtonModule,
+    MatDialogModule
+      ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [DialogOverviewExampleDialog]
 })
 export class AppModule { }

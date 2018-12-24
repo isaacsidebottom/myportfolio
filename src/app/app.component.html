@@ -6,7 +6,7 @@
     <h1>
       {{secondtitle}}
     </h1>
-    <button id="viewWorkBtn" mat-raised-button><b>View my work</b></button>
+    <button id="viewWorkBtn" (click)="openDialog()" mat-raised-button><b>View my work</b></button>
   </div>
   <footer>@ 2018 Isaac Sidebottom </footer>
   <particles [params]="myParams" [style]="myStyle" [width]="width" [height]="height"></particles>
